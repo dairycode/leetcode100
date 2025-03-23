@@ -11,7 +11,6 @@ func TestGroupAnagrams(t *testing.T) {
 		{"a"},
 	}
 	for _, strs := range strsList {
-		ans := groupAnagrams(strs)
-		t.Logf("input: %+v, output: %+v", strs, ans)
+		t.Logf("input: %+v, output: %+v", strs, groupAnagrams(strs))
 	}
 }

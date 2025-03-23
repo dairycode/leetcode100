@@ -9,7 +9,6 @@ func TestLongestConsecutive(t *testing.T) {
 		{1, 0, 1, 2},
 	}
 	for _, nums := range numsList {
-		ans := longestConsecutive(nums)
-		t.Logf("input: %+v, output: %+v", nums, ans)
+		t.Logf("input: %+v, output: %+v", nums, longestConsecutive(nums))
 	}
 }
