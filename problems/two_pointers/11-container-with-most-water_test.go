@@ -8,6 +8,6 @@ func TestMaxArea(t *testing.T) {
 		{1, 1},
 	}
 	for _, height := range heightList {
-		t.Logf("input: %+v, output: %+v", height, maxArea(height))
+		t.Logf("input: %+v, output: %d", height, maxArea(height))
 	}
 }

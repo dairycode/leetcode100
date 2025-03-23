@@ -8,6 +8,6 @@ func TestTrap(t *testing.T) {
 		{4, 2, 0, 3, 2, 5},
 	}
 	for _, height := range heightList {
-		t.Logf("input: %+v, output: %+v", height, trap(height))
+		t.Logf("input: %+v, output: %d", height, trap(height))
 	}
 }
